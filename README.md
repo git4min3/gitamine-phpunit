@@ -3,6 +3,8 @@
 ## Requirements
 
 * Shellcheck
+* phpunit
+* Linux/Mac
 
 ## Installation
 
