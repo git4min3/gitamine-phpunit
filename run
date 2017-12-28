@@ -45,7 +45,7 @@ if [ "$MIN_COVERAGE" -gt "0" ]; then
     rm .coverage
 
     if [ "$result" -lt "$MIN_COVERAGE" ]; then
-        printf "\\033[41m\\033[37m Coverage is below %s \\033[0m" "$MIN_COVERAGE"
+        printf '\033[41m\033[37m Coverage is %s%% (%s%% required) \033[0m' "$result" "$MIN_COVERAGE"
         exit 1
     fi
 fi
