@@ -5,6 +5,7 @@
 * Shellcheck
 * phpunit
 * Linux/Mac
+* Gitamine
 
 ## Installation
 

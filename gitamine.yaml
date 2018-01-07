@@ -1,5 +1,6 @@
 gitamine:
-
   pre-commit:
-    #test: ~
     shellcheck: ~
+
+  _requires:
+    git4min3/gitamine-shellcheck: shellcheck
