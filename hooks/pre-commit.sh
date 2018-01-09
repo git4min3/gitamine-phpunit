@@ -5,12 +5,11 @@ BIN=phpunit;
 MIN_COVERAGE=0
 
 # The reading options part
-while [[ $# -gt 0 ]] && [[ ."$1" = .--* ]] ;
+while [[ $# -gt 0 ]] && [[ ."$1" = .* ]] ;
 do
     opt="$1";
     shift;              #expose next argument
     case "$opt" in
-        "--" ) break 2;;
         "--bin="* )
            BIN="${opt#*=}";;
         "--enabled="* )
